@@ -1,0 +1,19 @@
+{
+  "name": "employeeportalmanagement",
+  "version": "1.0.0",
+  "description": "Key Objectives:\r -\tDevelop a centralized platform for leave requests and approvals\r -\tAutomatically calculate and update leave balance and leave used based on MOM regulations\r -\tAllow users to upload supporting documents such as MCs \r -\tEnsure secure login and role-based access \r -\tMaintain audit logs of all user actions\r -\tExport monthly/yearly reports\r -\tDashboard to display key statistics and leave summaries personalized to each user\r -\tSecurity implementations to prevent unauthorized tampering\r -\tSupervisor/in-charge to have extra privileges (modifying entitlement)\r Requirements \r Main\r -\tAnnual Leave\r -\tMaternity Leave\r -\tCompassionate Leave\r -\tSick/Medical Leave\r -\tUrgent Leave\r Others\r -\tAdoption Leave\r -\tChildcare Leave\r -\tPaternity Leave\r -\tShared Parental Leave\r -\tUnpaid Infant Care Leave\r -\tOvertime\r -\tOffset Request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janelle Chua",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.2",
+    "nodemon": "^3.1.10"
+  }
+}
